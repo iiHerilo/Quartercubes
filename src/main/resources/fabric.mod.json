@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "quatercubes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Herilo's Quartercubes",
+  "description": "For any block with a halfslab or stair variant, there is now a quarter-sized variant!",
   "authors": [
-    "Me!"
+    "Herilo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.herilo.net/",
+    "sources": "https://github.com/iiHerilo/Quartercubes"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/quartercubes/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.herilo.quartercubes.Quartercubes"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "quartercubes.mixins.json"
   ],
 
   "depends": {
